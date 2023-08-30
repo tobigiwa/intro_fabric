@@ -2,7 +2,7 @@
 
 +![](a.png)
 
-If you're here, you likely followed the path from the preceding article. If not, you can catch up on it right here. This piece will try to provide an overview of the inner workings of Hyperledger Fabric (HF), for a concise information, please visit the  [documentation](https://hyperledger-fabric.readthedocs.io/en/release-2.5/whatis.html#), "it's worth your while".
+If you're here, you likely followed the path from the preceding article. If not, you can catch up on it [right here](https://medium.com/@giwaoluwatobi/call-to-notice-the-blockchain-application-we-ought-to-know-instead-a-potential-hope-for-2104a37e8c98). This piece will try to provide an overview of the inner workings of Hyperledger Fabric (HF), for a concise information, please visit the  [documentation](https://hyperledger-fabric.readthedocs.io/en/release-2.5/whatis.html#), "it's worth your while".
 
 > "[Hyperledger Fabric is an open source enterprise-grade permissioned distributed ledger technology (DLT) platform, designed for use in enterprise contexts, that delivers some key differentiating capabilities over other popular distributed ledger or blockchain platforms](https://hyperledger-fabric.readthedocs.io/en/release-2.5/whatis.html#hyperledger-fabric)".
 
@@ -29,8 +29,10 @@ You might be sensing that there's more to uncover – and you're absolutely righ
 
  The last thing I will like to mention is the **MSP (Member Service Provider)** - everything that interacts with a blockchain network, including peers, applications (Fabric Gateway), admins, and orderers, acquires their organizational identity from their digital certificate and their Membership Service Provider (MSP) definition. Think of it as the orchestrator that bestows organizational identities upon all elements engaged with a blockchain network
 
+In a nutshell, we've traversed through the essentials: Channels, Organizations, various Peer Nodes (including Endorser, Anchor, and Orderer), Chaincode, Fabric Gateway, the Ledger (comprising Blockchain and World State), and the MSP. Armed with this foundational understanding, delving into the documentation should feel like a breeze. And with that, we conclude.
+
 ![](c.png)
 
-In a nutshell, we've traversed through the essentials: Channels, Organizations, various Peer Nodes (including Endorser, Anchor, and Orderer), Chaincode, Fabric Gateway, the Ledger (comprising Blockchain and World State), and the MSP. Armed with this foundational understanding, delving into the documentation should feel like a breeze. And with that, we conclude.
+In my upcoming article, I'll be introducing you to the fascinating realm of smart contracts within the network, called chaincode. I'll dive deep into the workings of the two API libraries available, one at the [lower level API](https://github.com/hyperledger/fabric-chaincode-go) and the other a [higher level](https://github.com/hyperledger/fabric-contract-api-go), both tailored for Go. It's important to note that similar implementations of these libraries exist in Java and JavaScript.
 
 I am a Go person and I’ll advise you to build real world solution applications with it instead, so join me, become a [gopher](https://go.dev/doc/faq#go_or_golang).
